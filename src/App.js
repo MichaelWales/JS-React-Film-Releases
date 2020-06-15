@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import FilmReleases from './containers/FilmReleases.js';
 
 function App() {
   return (
-    
+    <FilmReleases />
   );
 }
 
