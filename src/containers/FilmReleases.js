@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component , Fragment} from 'react';
 import FilmList from '../components/FilmList.js';
 
 class FilmReleases extends Component {
@@ -39,7 +39,8 @@ class FilmReleases extends Component {
       <Fragment>
         <h2>Upcoming Film Releases for the UK</h2>
         <FilmList films={this.state.films} />
-        <button>View more upcoming releases >></button>
+        <br/>
+        <button>View More Upcoming Releases >></button>
       </Fragment>
     )
   }
