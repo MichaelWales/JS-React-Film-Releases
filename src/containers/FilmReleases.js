@@ -40,7 +40,7 @@ class FilmReleases extends Component {
         <h2>Upcoming Film Releases for the UK</h2>
         <FilmList films={this.state.films} />
         <br/>
-        <button>View More Upcoming Releases >></button>
+        <a href="https://www.imdb.com/calendar/?region=gb"><button>View More Upcoming Releases >></button></a>
       </Fragment>
     )
   }
